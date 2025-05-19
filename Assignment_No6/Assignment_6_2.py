@@ -1,0 +1,13 @@
+ # This program can display sum of even numbers between 1 to 100
+def main():
+    sum=0
+    for i in range (2,102,2):
+        sum = sum+i
+    print("Sum of Even Numbers Bewteen 1 to 100 :-",sum)
+
+if __name__ == "__main__":
+    main()
+
+
+    
+   
